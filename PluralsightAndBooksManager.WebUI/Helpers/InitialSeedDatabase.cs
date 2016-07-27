@@ -172,11 +172,38 @@ namespace PluralsightAndBooksManager.WebUI.Helpers
             courseMaterials.Add(new CourseMaterial { Title = "SQL Server  Why Physical Database Design Matters" });
             courseMaterials.Add(new CourseMaterial { Title = "SQL Server - Transact-SQL Basic Data Retrieval" });
             courseMaterials.Add(new CourseMaterial { Title = "SQL Server 2012  Transact-SQL Error Handling" });
-
-
-
-
-
+            courseMaterials.Add(new CourseMaterial { Title = "SQL Server 2012 Querying (70-461) Part 1" });
+            courseMaterials.Add(new CourseMaterial { Title = "SQL Server 2012 Querying (70-461) Part 2" });
+            courseMaterials.Add(new CourseMaterial { Title = "SQL Server Performance Indexing Basics" });
+            courseMaterials.Add(new CourseMaterial { Title = "SQL Server Questions and Answers" });
+            courseMaterials.Add(new CourseMaterial { Title = "SQL Server Transact-SQL Basic Data Modification" });
+            courseMaterials.Add(new CourseMaterial { Title = "Streaming in .NET-4.5" });
+            courseMaterials.Add(new CourseMaterial { Title = "Structuring JavaScript Code" });
+            courseMaterials.Add(new CourseMaterial { Title = "Test First Development - Part 1" });
+            courseMaterials.Add(new CourseMaterial { Title = "Test First Development - Part 2" });
+            courseMaterials.Add(new CourseMaterial { Title = "Testing AngularJS From Scratch" });
+            courseMaterials.Add(new CourseMaterial { Title = "Testing Clientside JavaScript" });
+            courseMaterials.Add(new CourseMaterial { Title = "Type-Driven Development with F#" });
+            courseMaterials.Add(new CourseMaterial { Title = "TypeScript Fundamentals" });
+            courseMaterials.Add(new CourseMaterial { Title = "Understanding NoSQL" });
+            courseMaterials.Add(new CourseMaterial { Title = "Understanding Web Service Specifications in WCF" });
+            courseMaterials.Add(new CourseMaterial { Title = "Using Glimpse With ASP.NET, MVC4, and Entity Framework" });
+            courseMaterials.Add(new CourseMaterial { Title = "Using MongoDB with ASP.NET MVC" });
+            courseMaterials.Add(new CourseMaterial { Title = "Visual Studio Data Tools for Developers" });
+            courseMaterials.Add(new CourseMaterial { Title = "WCF 4 New Features" });
+            courseMaterials.Add(new CourseMaterial { Title = "WCF Advanced Topics" });
+            courseMaterials.Add(new CourseMaterial { Title = "WCF By Example" });
+            courseMaterials.Add(new CourseMaterial { Title = "WCF Design Concepts" });
+            courseMaterials.Add(new CourseMaterial { Title = "WCF Extensibility" });
+            courseMaterials.Add(new CourseMaterial { Title = "WCF For Architects" });
+            courseMaterials.Add(new CourseMaterial { Title = "WCF Fundamentals" });
+            courseMaterials.Add(new CourseMaterial { Title = "Web API Design" });
+            courseMaterials.Add(new CourseMaterial { Title = "Web API v2 Security" });
+            courseMaterials.Add(new CourseMaterial { Title = "WCF For Architects" });
+            courseMaterials.Add(new CourseMaterial { Title = "Web Security and the OWASP Top 10 The Big Picture" });
+            courseMaterials.Add(new CourseMaterial { Title = "WCF For Architects" });
+            courseMaterials.Add(new CourseMaterial { Title = "XAML Jumpstart Getting Started With XAML" });
+            courseMaterials.Add(new CourseMaterial { Title = "XAMLPatterns" });
 
             return courseMaterials;
         }
