@@ -44,7 +44,7 @@ namespace PluralsightAndBooksManager.WebUI.Controllers
 
         // GET: CourseMaterials/Create
         public ActionResult Create()
-        {
+        { 
             return View();
         }
 
