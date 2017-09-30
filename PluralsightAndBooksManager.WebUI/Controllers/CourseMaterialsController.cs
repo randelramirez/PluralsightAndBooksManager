@@ -14,15 +14,14 @@ namespace PluralsightAndBooksManager.WebUI.Controllers
         // GET: CourseMaterials
         public ActionResult Index(string search)
         {
-            ViewBag.TotalCourseMaterials = db.Courses.Count();
-            ViewBag.InCollectionTotal = db.Courses.Where(c => c.IsInCollection == true).Count();
-
             var courseMaterials = db.Courses.AsQueryable();
             if (!string.IsNullOrEmpty(search))
             {
                 courseMaterials = courseMaterials.Where(c => c.Title.Contains(search)).AsQueryable();
             }
-
+            ViewBag.TotalCourseMaterials = courseMaterials.Count();
+            ViewBag.InCollectionTotal = courseMaterials.Where(c => c.IsInCollection == true).Count();
+            ViewBag.Search = search;
             return View(courseMaterials.OrderBy(c => c.Title));
         }
 

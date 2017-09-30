@@ -5,7 +5,13 @@
 }
 
 <h2>Index</h2>
-<input type="text" name="search" /><button type="submit">Search</button>
+@using (Html.BeginForm("Index", "CourseMaterials", FormMethod.Get))
+{
+    <input type="text" value="@ViewBag.Search" name="search" />
+    <button type="submit">Search</button>
+}
+
+
 <h3 style="background-color:#FFC41F; color:#0031E8;">@ViewBag.InCollectionTotal of @ViewBag.TotalCourseMaterials are in collection: <span>@(Math.Round(((double)ViewBag.InCollectionTotal/ ViewBag.TotalCourseMaterials) * 100,2))% </span></h3>
 <p>
     @Html.ActionLink("Create New", "Create")
